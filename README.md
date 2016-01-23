@@ -3,9 +3,14 @@ Una breve descripción de la vida y obra del director británico.
 
 ## Ejercicio creado para “Darwin Eventur” cuya url es 
 	www.darwineventur.com
+	
 Y su twitter:
+
 	https://twitter.com/DarwinEventur
+	
 Y su FaceBook:
+	
+	https://www.facebook.com/Darwin.Eventur/
 	
 ### Los profesores han sido:
 	Ángel Pablo Hinojosa Gutiérrez http://www.psicobyte.com/
