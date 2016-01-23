@@ -1,0 +1,147 @@
+\documentclass[a4paper] {letter}
+
+\usepackage[left=0.5cm,top=1cm,right=0.5cm,bottom=1cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[latin9]{inputenc}
+\usepackage{longtable,array}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{calc}
+\setlength\extrarowheight{3pt}
+\usepackage{draftwatermark}
+\SetWatermarkText{CONDONADA}
+\begin{document}
+%%%%DECLARANDO VARIABLES
+\newcommand {\numfac}{16/001\_001}
+\newcommand {\fechafac}{01/01/2016}
+\newcommand {\base}{ 134.55 \euro}
+\newcommand {\iva}{28.26 \euro}
+\newcommand {\total}{162.81 \euro}
+\newcommand {\reten}{0.00 \euro}
+\newcommand {\neto}{162.81 \euro}
+\thispagestyle{empty}
+
+\begin{longtable}{|c|c|c|l|c|c|c|}
+\hline
+%\centering\includegraphics[width=6cm, height=3cm]{aqui_tu_logo}
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|c|}{\multirow{9}{*}{\includegraphics[width=4.7cm, height=4.5cm]{logo}}} \\
+\multicolumn{4}{|l|}{\Huge Gerardo A. Moreu Vijande} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|c|}{} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|l|}{Calle tal de cual}  & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Población: Tu ciudad} & \multicolumn{3}{|c|}{}  \\
+\multicolumn{4}{|l|}{Provincia: Tu provincia} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Cód.Postal: 99.999} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{CIF: B-xx.xxx.xxx} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|c|}{} \\
+\hline 
+\hline
+\hline
+\hline
+\hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+%%CAMBIAR FECHA Y NÚMERO DE LA FACTURA
+FACTURA: \numfac \\
+FECHA..: \fechafac \\
+NIF.CLIENTE: yy.yyy.yyy - W
+\end{tabular}}
+&
+\multicolumn{4}{l|}{
+\begin{tabular}{l}
+Cliente: Darwin Eventur \\
+Dirección Cliente: Edificio de la facultad de Ciencias \\
+C.P.:  99.999\\
+Población:  Lll \\
+Provincia: Lll
+\end{tabular}}
+\\
+\hline 
+
+\hline 
+\endhead
+
+% PIE FINAL ==========================================
+\hline \hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+
+%%%CAMBIAR VENCIMIENTO
+\normalsize VTO. FACTURA: \\
+\normalsize \textbf{1 de Enero de 2354}
+\end{tabular}}
+&
+\multicolumn{3}{l|}{
+\begin{tabular}{l}
+\normalsize BASE IMPONIBLE:\\
+
+\normalsize IVA (21 \%):  \\
+\normalsize TOTAL FACTURA: \\
+\normalsize RETENCIÓN (-19 \%) : \\
+\normalsize NETO:
+\end{tabular}}
+&
+\multicolumn{1}{r|}{
+\begin{tabular}{r}
+\normalsize  \base \\
+\normalsize \iva \\
+\normalsize \total \\
+\normalsize \reten \\
+\normalsize  \neto \\
+\end{tabular}}
+\\
+\hline 
+\endlastfoot
+
+% PIE PAGINA==========================================
+\multicolumn{7}{|r|}{\normalsize SUMA y SIGUE} \\
+\endfoot
+FECHA & Cód. Cliente & ARTÍCULO & DESCRIPCIÓN & CANTIDAD & PRECIO & IMPORTE \\
+\hline
+\fechafac & 016.001 & 10001  & Prestación de Servicios Profesionales & 01 & 134.55 \euro & 134.55 \euro \\
+\fechafac & 016.001 & 10002  & Informe pericial de Stanley Kubrick & 01 & 0 \euro & 0 \euro \\
+\fechafac & 016.001 & 10003  & Página web para el informe & 01 & 0 \euro & 0 \euro \\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+\end{longtable}
+\vfill
+\hrulefill
+\hrulefill
+\hrulefill
+
+
+\begin{tabular}{l  r}
+Banco: Banco Mare Nostrum & \textbf{ESkk tttt tttt tttt tttt} \\
+
+Banco: Banco Santander Central Hispano & \textbf{ESkk uuuu uuuu uuuu uuuu}\\
+
+Banco: Caja Rural de Granada  & \textbf{ESkk mmmm mmmm mmmm mmmm}\\
+
+\end{tabular}
+
+
+
+
+\end{document}
